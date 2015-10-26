@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="hlv_absHListViewStyle"/>
+    <attr format="reference" name="hlv_expandableListViewStyle"/>
+    <attr format="dimension" name="hlv_listPreferredItemWidth"/>
+    <attr format="reference" name="hlv_listViewStyle"/>
+    <declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:smoothScrollbar"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:scrollingCache"/><attr name="android:choiceMode"/><attr format="boolean" name="hlv_stackFromRight"/><attr name="hlv_transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr></declare-styleable>
+    <declare-styleable name="ExpandableHListView"><attr name="hlv_indicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr name="hlv_childIndicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="reference|color" name="hlv_childDivider"/><attr format="reference" name="hlv_groupIndicator"/><attr format="reference" name="hlv_childIndicator"/><attr format="dimension" name="hlv_indicatorPaddingLeft"/><attr format="dimension" name="hlv_indicatorPaddingTop"/><attr format="dimension" name="hlv_childIndicatorPaddingLeft"/><attr format="dimension" name="hlv_childIndicatorPaddingTop"/></declare-styleable>
+    <declare-styleable name="HListView"><attr name="android:entries"/><attr name="android:divider"/><attr format="dimension" name="hlv_dividerWidth"/><attr format="boolean" name="hlv_headerDividersEnabled"/><attr format="boolean" name="hlv_footerDividersEnabled"/><attr format="reference|color" name="hlv_overScrollHeader"/><attr format="reference|color" name="hlv_overScrollFooter"/><attr format="integer" name="hlv_measureWithChild"/></declare-styleable>
+    <!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="addcity">Добавить город</string>
+    <string name="app_name">GoodWeather</string>
+    <string name="curWurl">http://api.openweathermap.org/data/2.5/weather?q=</string>
+    <string name="delete">Удалить город?</string>
+    <string name="entertext"/>
+    <string name="no">Отмена</string>
+    <string name="nope">Нет</string>
+    <string name="ok">Добавить</string>
+    <string name="refresh">Обновить</string>
+    <string name="title">Введите название города</string>
+    <string name="turl1">https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20130922T163909Z.4b80d345f1cf210a.7a19c4e91fc64850938354743ae84c172909c842</string>
+    <string name="turl2">&amp;lang=</string>
+    <string name="turl3">&amp;text=</string>
+    <string name="wurl1">http://api.openweathermap.org/data/2.5/forecast?q=</string>
+    <string name="wurl2">&amp;format=xml&amp;num_of_days=5&amp;cc=yes&amp;key=6uh9jmakgtpdhtnhz7j7vh7y</string>
+    <string name="yes">Да</string>
+</resources>

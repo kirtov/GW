@@ -1,0 +1,5 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+        android:tileMode="repeat"
+        android:src="@drawable/blue"
+        />
+<!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/src/main/res/drawable/blue_bg.xml -->

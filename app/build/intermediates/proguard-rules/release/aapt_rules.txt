@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.example.GoodWeather.CityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.example.GoodWeather.NowWeatherService { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.example.GoodWeather.WeatherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.example.GoodWeather.WeatherService { <init>(...); }
+
+# onClick res/layout/weather.xml #generated:79
+-keepclassmembers class * { *** on1Click(...); }
+
+# onClick res/layout/weather.xml #generated:105
+-keepclassmembers class * { *** on2Click(...); }
+
+# onClick res/layout/weather.xml #generated:131
+-keepclassmembers class * { *** on3Click(...); }
+
+# onClick res/layout/weather.xml #generated:157
+-keepclassmembers class * { *** on4Click(...); }
+
