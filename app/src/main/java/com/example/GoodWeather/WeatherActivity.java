@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Typeface;
-import android.media.Image;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Menu;
@@ -22,23 +21,18 @@ import android.widget.Toast;
 import com.example.GoodWeather.Forecast.DayForecast;
 import com.example.GoodWeather.Forecast.Forecast;
 
-import org.w3c.dom.Text;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
-import java.util.TimeZone;
 
 public class WeatherActivity extends Activity {
     private final String APPID = "e5e545b5cf7e46134a1646fe5233aec8";
     private final String RESPONSE = "weatherResponse";
     private final String RESPONSE2 = "nowWeatherResponse";
     private final String URL = "url";
+    private String[] enConditions, ruConditions;
     TextView  time;
     private String w1;
     DBAdapter db;
@@ -58,9 +52,9 @@ public class WeatherActivity extends Activity {
     Typeface type1;
 
     //widget
-    TextView l1_day, l2_day, l3_day, l4_day, l5_day;
-    TextView l1_temp, l2_temp, l3_temp, l4_temp, l5_temp;
-    ImageView l1_img, l2_img, l3_img, l4_img, l5_img;
+    TextView l1_day, l2_day, l3_day, l4_day;
+    TextView l1_temp, l2_temp, l3_temp, l4_temp;
+    ImageView l1_img, l2_img, l3_img, l4_img;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,10 +71,12 @@ public class WeatherActivity extends Activity {
         w1 = getResources().getString(R.string.wurl1);
         city = getIntent().getStringExtra(DBAdapter.RUCITYNAME);
         cityName.setText(city);
+        ruConditions = getResources().getStringArray(R.array.ruConditions);
+        enConditions = getResources().getStringArray(R.array.enConditions);
         register();
         currentDfs = null;
         getWeather();
-        getActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.status));
+        getActionBar().setBackgroundDrawable(getResources().getDrawable(R.color.sbis_blue));
     }
 
     private void setTypeFace() {
@@ -98,13 +94,13 @@ public class WeatherActivity extends Activity {
     }
 
     private void initializeComponents() {
-        DisplayMetrics dm = getResources().getDisplayMetrics();
+        DisplayMetrics dm;
         dm = getResources().getDisplayMetrics();
         RelativeLayout l1 = (RelativeLayout) findViewById(R.id.l1);
         RelativeLayout l2 = (RelativeLayout) findViewById(R.id.l2);
         RelativeLayout l3 = (RelativeLayout) findViewById(R.id.l3);
         RelativeLayout l4 = (RelativeLayout) findViewById(R.id.l4);
-        int wid = (int)(dm.widthPixels);
+        int wid = (dm.widthPixels);
         wid = wid / 4;
         l1.getLayoutParams().width = wid;
         l2.getLayoutParams().width = wid;
@@ -135,7 +131,7 @@ public class WeatherActivity extends Activity {
     }
 
     private void setTime() {
-        Calendar date = null;
+        Calendar date;
         try {
             date = currentDfs.get(currentViewDay).forecasts.get(0).date;
             time.setText(getWeekDay(date.get(Calendar.DAY_OF_WEEK)));
@@ -174,7 +170,7 @@ public class WeatherActivity extends Activity {
             case 11:
                 return "Дек";
         }
-        return "err";
+        return "Месяц";
     }
 
     private String getWeekDay(int day) {
@@ -194,7 +190,7 @@ public class WeatherActivity extends Activity {
             case 7:
                 return "Вс";
         }
-        return "Какой-то день";
+        return "День";
     }
 
     private void getWeather() {
@@ -221,27 +217,19 @@ public class WeatherActivity extends Activity {
         registerReceiver(wet2, filter2);
     }
 
-    //hardcode
     private void changeConditionToRu() {
         String cond = condition.getText().toString();
-        if (cond.equalsIgnoreCase("clear sky")) {
-            condition.setText("Ясно");
-        } else if (cond.equalsIgnoreCase("few clouds")) {
-            condition.setText("Малооблачно");
-        } else if (cond.equalsIgnoreCase("scattered clouds")) {
-            condition.setText("Рассеянные облака");
-        } else if (cond.equalsIgnoreCase("broken clouds")) {
-            condition.setText("Разорванные облака");
-        } else if (cond.equalsIgnoreCase("shower rain")) {
-            condition.setText("Ливень");
-        } else if (cond.equalsIgnoreCase("rain")) {
-            condition.setText("Дождь");
-        } else if (cond.equalsIgnoreCase("thunderstorm")) {
-            condition.setText("Гроза");
-        } else if (cond.equalsIgnoreCase("snow")) {
-            condition.setText("Снег");
-        } else if (cond.equalsIgnoreCase("mist")) {
-            condition.setText("Туман");
+        int index = -1;
+        for (int i = 0; i < enConditions.length; i++) {
+            if (cond.equals(enConditions[i])) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) {
+            condition.setText("");
+        } else {
+            condition.setText(ruConditions[index]);
         }
     }
 
@@ -290,43 +278,35 @@ public class WeatherActivity extends Activity {
     }
 
     private void setWidgetInfo(ArrayList<DayForecast> dfsArr) {
-        int target1 = 4, target2 = 5;
         int temp, curDay;
         if (dfsArr.size() > 1) {
             curDay = 1;
             l1_day.setText(getWeekDay(dfsArr.get(curDay).forecasts.get(0).date.get(Calendar.DAY_OF_WEEK)));
-            temp = (dfsArr.get(curDay).forecasts.get(target1).tempr + dfsArr.get(curDay).forecasts.get(target2).tempr) / 2;
+            temp = dfsArr.get(curDay).getMediumTemprature();
             l1_temp.setText("" + temp);
-            l1_img.setImageResource(getImageByCode(dfsArr.get(curDay).forecasts.get(target1).imageCode));
+            l1_img.setImageResource(getImageByCode(dfsArr.get(curDay).getMediumImageCode()));
         }
         if (dfsArr.size() > 2) {
             curDay = 2;
             l2_day.setText(getWeekDay(dfsArr.get(curDay).forecasts.get(0).date.get(Calendar.DAY_OF_WEEK)));
-            temp = (dfsArr.get(curDay).forecasts.get(target1).tempr + dfsArr.get(curDay).forecasts.get(target2).tempr) / 2;
+            temp = dfsArr.get(curDay).getMediumTemprature();
             l2_temp.setText("" + temp);
-            l2_img.setImageResource(getImageByCode(dfsArr.get(curDay).forecasts.get(target1).imageCode));
+            l2_img.setImageResource(getImageByCode(dfsArr.get(curDay).getMediumImageCode()));
         }
         if (dfsArr.size() > 3) {
             curDay = 3;
             l3_day.setText(getWeekDay(dfsArr.get(curDay).forecasts.get(0).date.get(Calendar.DAY_OF_WEEK)));
-            temp = (dfsArr.get(curDay).forecasts.get(target1).tempr + dfsArr.get(curDay).forecasts.get(target2).tempr) / 2;
+            temp = dfsArr.get(curDay).getMediumTemprature();
             l3_temp.setText("" + temp);
-            l3_img.setImageResource(getImageByCode(dfsArr.get(curDay).forecasts.get(target1).imageCode));
+            l3_img.setImageResource(getImageByCode(dfsArr.get(curDay).getMediumImageCode()));
         }
         if (dfsArr.size() > 4) {
             curDay = 4;
             l4_day.setText(getWeekDay(dfsArr.get(curDay).forecasts.get(0).date.get(Calendar.DAY_OF_WEEK)));
-            temp = (dfsArr.get(curDay).forecasts.get(target1).tempr + dfsArr.get(curDay).forecasts.get(target2).tempr) / 2;
+            temp = dfsArr.get(curDay).getMediumTemprature();
             l4_temp.setText("" + temp);
-            l4_img.setImageResource(getImageByCode(dfsArr.get(curDay).forecasts.get(target1).imageCode));
+            l4_img.setImageResource(getImageByCode(dfsArr.get(curDay).getMediumImageCode()));
         }
-//        if (dfsArr.size() > 5) {
-//            curDay = 5;
-//            l5_day.setText(getWeekDay(dfsArr.get(curDay).forecasts.get(0).date.get(Calendar.DAY_OF_WEEK)));
-//            temp = (dfsArr.get(curDay).forecasts.get(target1).tempr + dfsArr.get(curDay).forecasts.get(target2).tempr) / 2;
-//            l5_temp.setText("" + temp);
-//            l5_img.setImageResource(getImageByCode(dfsArr.get(curDay).forecasts.get(target1).imageCode));
-//        }
     }
 
     private void setNewNowWeather(Forecast forecast) {

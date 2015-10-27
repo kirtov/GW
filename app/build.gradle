@@ -12,6 +12,7 @@ android {
 
     dependencies {
         compile 'it.sephiroth.android.library.horizontallistview:hlistview:1.2.2'
+        compile 'com.github.clans:fab:1.5.3'
     }
 
     buildTypes {
@@ -20,20 +21,4 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-//    signingConfigs {
-//        release {
-//            storeFile file("C:\\kk1\\GoodWeather.jks")
-//            storePassword "aaaaaa"
-//            keyAlias "bbbbbb"
-//            keyPassword "bbbbbb"
-//        }
-//
-//        buildTypes {
-//            release {
-//                minifyEnabled true
-//                signingConfig signingConfigs.release
-//                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-//            }
-//        }
-//    }
 }

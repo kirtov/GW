@@ -8,7 +8,189 @@
 package com.example.GoodWeather;
 
 public final class R {
+    public static final class anim {
+        public static final int fab_scale_down=0x7f040000;
+        public static final int fab_scale_up=0x7f040001;
+        public static final int fab_slide_in_from_left=0x7f040002;
+        public static final int fab_slide_in_from_right=0x7f040003;
+        public static final int fab_slide_out_to_left=0x7f040004;
+        public static final int fab_slide_out_to_right=0x7f040005;
+    }
+    public static final class array {
+        public static final int enConditions=0x7f050000;
+        public static final int ruConditions=0x7f050001;
+    }
     public static final class attr {
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_colorDisabled=0x7f010011;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_colorNormal=0x7f01000f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_colorPressed=0x7f010010;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_colorRipple=0x7f010012;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_elevationCompat=0x7f01001c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fab_hideAnimation=0x7f01001a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_label=0x7f01001b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress=0x7f010021;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress_backgroundColor=0x7f01001e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress_color=0x7f01001d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress_indeterminate=0x7f01001f;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress_max=0x7f010020;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_progress_showBackground=0x7f010022;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_shadowColor=0x7f010014;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_shadowRadius=0x7f010015;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_shadowXOffset=0x7f010016;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_shadowYOffset=0x7f010017;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fab_showAnimation=0x7f010019;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fab_showShadow=0x7f010013;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int fab_size=0x7f010018;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -75,7 +257,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hlv_dividerWidth=0x7f01000f;
+        public static final int hlv_dividerWidth=0x7f010046;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -87,7 +269,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hlv_footerDividersEnabled=0x7f010011;
+        public static final int hlv_footerDividersEnabled=0x7f010048;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -99,7 +281,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hlv_headerDividersEnabled=0x7f010010;
+        public static final int hlv_headerDividersEnabled=0x7f010047;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -164,19 +346,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hlv_measureWithChild=0x7f010014;
+        public static final int hlv_measureWithChild=0x7f01004b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int hlv_overScrollFooter=0x7f010013;
+        public static final int hlv_overScrollFooter=0x7f01004a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int hlv_overScrollHeader=0x7f010012;
+        public static final int hlv_overScrollHeader=0x7f010049;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -197,6 +379,380 @@ containing a value of this type.
 </table>
          */
         public static final int hlv_transcriptMode=0x7f010005;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_animationDelayPerItem=0x7f010036;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_backgroundColor=0x7f010045;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_buttonSpacing=0x7f010024;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu_buttonToggleAnimation=0x7f010037;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_colorNormal=0x7f010041;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_colorPressed=0x7f010042;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_colorRipple=0x7f010043;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int menu_fab_size=0x7f01003b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu_icon=0x7f010035;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_colorNormal=0x7f010031;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_colorPressed=0x7f010032;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_colorRipple=0x7f010033;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_cornerRadius=0x7f01002f;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>start</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>3</td><td></td></tr>
+<tr><td><code>marquee</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int menu_labels_ellipsize=0x7f010039;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu_labels_hideAnimation=0x7f010027;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_margin=0x7f010025;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_maxLines=0x7f01003a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_padding=0x7f01002c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_paddingBottom=0x7f01002b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_paddingLeft=0x7f010029;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_paddingRight=0x7f01002a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_paddingTop=0x7f010028;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int menu_labels_position=0x7f010034;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu_labels_showAnimation=0x7f010026;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_showShadow=0x7f010030;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_singleLine=0x7f010038;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int menu_labels_style=0x7f01003c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_textColor=0x7f01002d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_labels_textSize=0x7f01002e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>up</code></td><td>0</td><td></td></tr>
+<tr><td><code>down</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int menu_openDirection=0x7f010044;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_shadowColor=0x7f01003d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_shadowRadius=0x7f01003e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_shadowXOffset=0x7f01003f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_shadowYOffset=0x7f010040;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int menu_showShadow=0x7f010023;
+    }
+    public static final class color {
+        public static final int button_orange_default_bg_color=0x7f060000;
+        public static final int button_orange_disable_bg_color=0x7f060001;
+        public static final int button_orange_pressed_bg_color=0x7f060002;
+        public static final int checkin_todays_section_bg_color=0x7f060003;
+        public static final int dialog_company_bg=0x7f060004;
+        public static final int dialog_company_color=0x7f060005;
+        public static final int dialog_date_header_text_color=0x7f060006;
+        public static final int dialog_default_name_color=0x7f060007;
+        public static final int dialog_message_color=0x7f060008;
+        public static final int dialog_separator_color=0x7f060009;
+        public static final int dialog_time_color=0x7f06000a;
+        public static final int dialog_unread_bg_color=0x7f06000b;
+        public static final int dialog_unread_name_color=0x7f06000c;
+        public static final int edit_text_color_hint=0x7f06000d;
+        public static final int edit_text_color_link=0x7f06000e;
+        public static final int input_field_cursor_color=0x7f06000f;
+        public static final int input_field_hint_color=0x7f060010;
+        public static final int input_field_line_default_color=0x7f060011;
+        public static final int input_field_line_focused_color=0x7f060012;
+        public static final int input_field_text_color=0x7f060013;
+        public static final int item_shadow_color=0x7f060014;
+        public static final int list_selection_gray=0x7f060015;
+        public static final int list_separator=0x7f060016;
+        public static final int list_separator_another_profile_view=0x7f060017;
+        public static final int list_separator_profile_view=0x7f060018;
+        public static final int message_from_cur_user_bg_color=0x7f060019;
+        public static final int message_from_user_bg_color=0x7f06001a;
+        public static final int message_input_hint=0x7f06001b;
+        public static final int message_input_stroke=0x7f06001c;
+        public static final int message_not_delivered=0x7f06001d;
+        public static final int message_person_name=0x7f06001e;
+        public static final int message_text=0x7f06001f;
+        public static final int message_text_alpha=0x7f060020;
+        public static final int message_text_color=0x7f060021;
+        public static final int navigation_drawer_bg_color=0x7f060022;
+        public static final int navigation_drawer_menu_selected_color=0x7f060023;
+        public static final int navigation_drawer_menu_selection_color=0x7f060024;
+        public static final int navigation_primary_color=0x7f060025;
+        public static final int person_active_view_color=0x7f060026;
+        public static final int person_image_border_color=0x7f060027;
+        public static final int person_inactive_view_color=0x7f060028;
+        public static final int profile_background=0x7f060029;
+        public static final int registration_hint_color=0x7f06002a;
+        public static final int sbis_black=0x7f06002b;
+        public static final int sbis_blue=0x7f06002c;
+        public static final int sbis_blue_dark=0x7f06002d;
+        public static final int sbis_gray=0x7f06002e;
+        public static final int sbis_orange=0x7f06002f;
+        public static final int sbis_orange_dark=0x7f060030;
+        public static final int scrollbar_color=0x7f060031;
+        public static final int spinner_with_header_pressed_text_color=0x7f060032;
+        public static final int spinner_with_header_text_color=0x7f060033;
+        public static final int text_default_color=0x7f060034;
+        public static final int text_orange_color=0x7f060035;
+        public static final int visit_log_list_section_bg_color=0x7f060036;
+        public static final int visit_log_list_section_text_color=0x7f060037;
+        public static final int visit_log_list_selected_item_bg_color=0x7f060038;
+    }
+    public static final class dimen {
+        public static final int fab_size_mini=0x7f070000;
+        public static final int fab_size_normal=0x7f070001;
+        public static final int labels_text_size=0x7f070002;
+        public static final int weather_image_height=0x7f070003;
+        public static final int weather_image_width=0x7f070004;
     }
     public static final class drawable {
         public static final int a1=0x7f020000;
@@ -237,83 +793,93 @@ containing a value of this type.
         public static final int blue=0x7f020023;
         public static final int blue_bg=0x7f020024;
         public static final int day=0x7f020025;
-        public static final int hlv_overscroll_edge=0x7f020026;
-        public static final int hlv_overscroll_glow=0x7f020027;
-        public static final int ic_launcher=0x7f020028;
-        public static final int list=0x7f020029;
-        public static final int refresh=0x7f02002a;
-        public static final int status=0x7f02002b;
-        public static final int textview_bg=0x7f02002c;
-        public static final int textview_bg_unit=0x7f02002d;
-        public static final int update23=0x7f02002e;
-        public static final int urban=0x7f02002f;
+        public static final int fab_add=0x7f020026;
+        public static final int fadd=0x7f020027;
+        public static final int hlv_overscroll_edge=0x7f020028;
+        public static final int hlv_overscroll_glow=0x7f020029;
+        public static final int ic_launcher=0x7f02002a;
+        public static final int list=0x7f02002b;
+        public static final int refresh=0x7f02002c;
+        public static final int status=0x7f02002d;
+        public static final int textview_bg=0x7f02002e;
+        public static final int textview_bg_unit=0x7f02002f;
+        public static final int update23=0x7f020030;
+        public static final int urban=0x7f020031;
     }
     public static final class id {
-        public static final int add=0x7f06003f;
-        public static final int alwaysScroll=0x7f060000;
-        public static final int bottom=0x7f060003;
-        public static final int center=0x7f060004;
-        public static final int center_horizontal=0x7f060005;
-        public static final int center_vertical=0x7f060006;
-        public static final int city=0x7f06002c;
-        public static final int cityName=0x7f060013;
-        public static final int clip_horizontal=0x7f060007;
-        public static final int clip_vertical=0x7f060008;
-        public static final int condition=0x7f060014;
-        public static final int curImage=0x7f060017;
-        public static final int curTime=0x7f060019;
-        public static final int disabled=0x7f060001;
-        public static final int end=0x7f060009;
-        public static final int fill=0x7f06000a;
-        public static final int fill_horizontal=0x7f06000b;
-        public static final int fill_vertical=0x7f06000c;
-        public static final int horizontalScrollView=0x7f06001b;
-        public static final int image=0x7f06002e;
-        public static final int l1=0x7f06001c;
-        public static final int l1_i1=0x7f06001e;
-        public static final int l1_t1=0x7f06001d;
-        public static final int l1_t2=0x7f06001f;
-        public static final int l2=0x7f060020;
-        public static final int l2_i1=0x7f060022;
-        public static final int l2_t1=0x7f060021;
-        public static final int l2_t2=0x7f060023;
-        public static final int l3=0x7f060024;
-        public static final int l3_i1=0x7f060026;
-        public static final int l3_t1=0x7f060025;
-        public static final int l3_t2=0x7f060027;
-        public static final int l4=0x7f060028;
-        public static final int l4_i1=0x7f06002a;
-        public static final int l4_t1=0x7f060029;
-        public static final int l4_t2=0x7f06002b;
-        public static final int l5=0x7f060037;
-        public static final int l5_i1=0x7f060039;
-        public static final int l5_t1=0x7f060038;
-        public static final int l5_t2=0x7f06003a;
-        public static final int left=0x7f06000d;
-        public static final int lin23=0x7f060018;
-        public static final int lin32=0x7f060015;
-        public static final int listView=0x7f060011;
-        public static final int listView2=0x7f06001a;
-        public static final int lla=0x7f06003b;
-        public static final int normal=0x7f060002;
-        public static final int nowWeather=0x7f06002f;
-        public static final int nowhum=0x7f060034;
-        public static final int nowspeed=0x7f060032;
-        public static final int nowtemp=0x7f060030;
-        public static final int refresh=0x7f060040;
-        public static final int right=0x7f06000e;
-        public static final int scrollView=0x7f060036;
-        public static final int start=0x7f06000f;
-        public static final int temp_text=0x7f06003e;
-        public static final int tempr=0x7f060016;
-        public static final int textView=0x7f060012;
-        public static final int textView3=0x7f060031;
-        public static final int textView5=0x7f060033;
-        public static final int textView7=0x7f060035;
-        public static final int time=0x7f06002d;
-        public static final int time_text=0x7f06003c;
-        public static final int top=0x7f060010;
-        public static final int weather_image=0x7f06003d;
+        public static final int add=0x7f080048;
+        public static final int add_city_fab=0x7f080019;
+        public static final int alwaysScroll=0x7f080001;
+        public static final int bottom=0x7f080004;
+        public static final int center=0x7f080005;
+        public static final int center_horizontal=0x7f080006;
+        public static final int center_vertical=0x7f080007;
+        public static final int city=0x7f080034;
+        public static final int cityName=0x7f08001b;
+        public static final int clip_horizontal=0x7f080008;
+        public static final int clip_vertical=0x7f080009;
+        public static final int condition=0x7f08001c;
+        public static final int curImage=0x7f08001f;
+        public static final int curTime=0x7f080021;
+        public static final int disabled=0x7f080002;
+        public static final int down=0x7f080016;
+        public static final int end=0x7f08000a;
+        public static final int fab_label=0x7f080000;
+        public static final int fill=0x7f08000b;
+        public static final int fill_horizontal=0x7f08000c;
+        public static final int fill_vertical=0x7f08000d;
+        public static final int horizontalScrollView=0x7f080023;
+        public static final int image=0x7f080036;
+        public static final int l1=0x7f080024;
+        public static final int l1_i1=0x7f080026;
+        public static final int l1_t1=0x7f080025;
+        public static final int l1_t2=0x7f080027;
+        public static final int l2=0x7f080028;
+        public static final int l2_i1=0x7f08002a;
+        public static final int l2_t1=0x7f080029;
+        public static final int l2_t2=0x7f08002b;
+        public static final int l3=0x7f08002c;
+        public static final int l3_i1=0x7f08002e;
+        public static final int l3_t1=0x7f08002d;
+        public static final int l3_t2=0x7f08002f;
+        public static final int l4=0x7f080030;
+        public static final int l4_i1=0x7f080032;
+        public static final int l4_t1=0x7f080031;
+        public static final int l4_t2=0x7f080033;
+        public static final int l5=0x7f08003f;
+        public static final int l5_i1=0x7f080041;
+        public static final int l5_t1=0x7f080040;
+        public static final int l5_t2=0x7f080042;
+        public static final int left=0x7f08000e;
+        public static final int lin23=0x7f080020;
+        public static final int lin32=0x7f08001d;
+        public static final int listView=0x7f080018;
+        public static final int listView2=0x7f080022;
+        public static final int lla=0x7f080043;
+        public static final int marquee=0x7f080013;
+        public static final int middle=0x7f080014;
+        public static final int mini=0x7f080012;
+        public static final int none=0x7f080015;
+        public static final int normal=0x7f080003;
+        public static final int nowWeather=0x7f080037;
+        public static final int nowhum=0x7f08003c;
+        public static final int nowspeed=0x7f08003a;
+        public static final int nowtemp=0x7f080038;
+        public static final int refresh=0x7f080047;
+        public static final int right=0x7f08000f;
+        public static final int scrollView=0x7f08003e;
+        public static final int start=0x7f080010;
+        public static final int temp_text=0x7f080046;
+        public static final int tempr=0x7f08001e;
+        public static final int textView=0x7f08001a;
+        public static final int textView3=0x7f080039;
+        public static final int textView5=0x7f08003b;
+        public static final int textView7=0x7f08003d;
+        public static final int time=0x7f080035;
+        public static final int time_text=0x7f080044;
+        public static final int top=0x7f080011;
+        public static final int up=0x7f080017;
+        public static final int weather_image=0x7f080045;
     }
     public static final class layout {
         public static final int city=0x7f030000;
@@ -322,26 +888,25 @@ containing a value of this type.
         public static final int weather_iten=0x7f030003;
     }
     public static final class menu {
-        public static final int city_menu=0x7f050000;
-        public static final int weather_menu=0x7f050001;
+        public static final int weather_menu=0x7f0a0000;
     }
     public static final class string {
-        public static final int addcity=0x7f040000;
-        public static final int app_name=0x7f040001;
-        public static final int curWurl=0x7f040002;
-        public static final int delete=0x7f040003;
-        public static final int entertext=0x7f040004;
-        public static final int no=0x7f040005;
-        public static final int nope=0x7f040006;
-        public static final int ok=0x7f040007;
-        public static final int refresh=0x7f040008;
-        public static final int title=0x7f040009;
-        public static final int turl1=0x7f04000a;
-        public static final int turl2=0x7f04000b;
-        public static final int turl3=0x7f04000c;
-        public static final int wurl1=0x7f04000d;
-        public static final int wurl2=0x7f04000e;
-        public static final int yes=0x7f04000f;
+        public static final int addcity=0x7f090000;
+        public static final int app_name=0x7f090001;
+        public static final int curWurl=0x7f090002;
+        public static final int delete=0x7f090003;
+        public static final int entertext=0x7f090004;
+        public static final int no=0x7f090005;
+        public static final int nope=0x7f090006;
+        public static final int ok=0x7f090007;
+        public static final int refresh=0x7f090008;
+        public static final int title=0x7f090009;
+        public static final int turl1=0x7f09000a;
+        public static final int turl2=0x7f09000b;
+        public static final int turl3=0x7f09000c;
+        public static final int wurl1=0x7f09000d;
+        public static final int wurl2=0x7f09000e;
+        public static final int yes=0x7f09000f;
     }
     public static final class styleable {
         /** Attributes that can be used with a AbsHListView.
@@ -625,6 +1190,958 @@ containing a value of this type.
           @attr name com.example.GoodWeather:hlv_indicatorPaddingTop
         */
         public static final int ExpandableHListView_hlv_indicatorPaddingTop = 6;
+        /** Attributes that can be used with a FloatingActionButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.example.GoodWeather:fab_colorDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.example.GoodWeather:fab_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.example.GoodWeather:fab_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.example.GoodWeather:fab_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_elevationCompat com.example.GoodWeather:fab_elevationCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_hideAnimation com.example.GoodWeather:fab_hideAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_label com.example.GoodWeather:fab_label}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress com.example.GoodWeather:fab_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_backgroundColor com.example.GoodWeather:fab_progress_backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_color com.example.GoodWeather:fab_progress_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_indeterminate com.example.GoodWeather:fab_progress_indeterminate}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_max com.example.GoodWeather:fab_progress_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_progress_showBackground com.example.GoodWeather:fab_progress_showBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowColor com.example.GoodWeather:fab_shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowRadius com.example.GoodWeather:fab_shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowXOffset com.example.GoodWeather:fab_shadowXOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_shadowYOffset com.example.GoodWeather:fab_shadowYOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_showAnimation com.example.GoodWeather:fab_showAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_showShadow com.example.GoodWeather:fab_showShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fab_size com.example.GoodWeather:fab_size}</code></td><td></td></tr>
+           </table>
+           @see #FloatingActionButton_fab_colorDisabled
+           @see #FloatingActionButton_fab_colorNormal
+           @see #FloatingActionButton_fab_colorPressed
+           @see #FloatingActionButton_fab_colorRipple
+           @see #FloatingActionButton_fab_elevationCompat
+           @see #FloatingActionButton_fab_hideAnimation
+           @see #FloatingActionButton_fab_label
+           @see #FloatingActionButton_fab_progress
+           @see #FloatingActionButton_fab_progress_backgroundColor
+           @see #FloatingActionButton_fab_progress_color
+           @see #FloatingActionButton_fab_progress_indeterminate
+           @see #FloatingActionButton_fab_progress_max
+           @see #FloatingActionButton_fab_progress_showBackground
+           @see #FloatingActionButton_fab_shadowColor
+           @see #FloatingActionButton_fab_shadowRadius
+           @see #FloatingActionButton_fab_shadowXOffset
+           @see #FloatingActionButton_fab_shadowYOffset
+           @see #FloatingActionButton_fab_showAnimation
+           @see #FloatingActionButton_fab_showShadow
+           @see #FloatingActionButton_fab_size
+         */
+        public static final int[] FloatingActionButton = {
+            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012,
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
+            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
+            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_colorDisabled}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_colorDisabled
+        */
+        public static final int FloatingActionButton_fab_colorDisabled = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_colorNormal}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_colorNormal
+        */
+        public static final int FloatingActionButton_fab_colorNormal = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_colorPressed}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_colorPressed
+        */
+        public static final int FloatingActionButton_fab_colorPressed = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_colorRipple}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_colorRipple
+        */
+        public static final int FloatingActionButton_fab_colorRipple = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_elevationCompat}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_elevationCompat
+        */
+        public static final int FloatingActionButton_fab_elevationCompat = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_hideAnimation}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:fab_hideAnimation
+        */
+        public static final int FloatingActionButton_fab_hideAnimation = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_label}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_label
+        */
+        public static final int FloatingActionButton_fab_label = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress
+        */
+        public static final int FloatingActionButton_fab_progress = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress_backgroundColor}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress_backgroundColor
+        */
+        public static final int FloatingActionButton_fab_progress_backgroundColor = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress_color}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress_color
+        */
+        public static final int FloatingActionButton_fab_progress_color = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress_indeterminate}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress_indeterminate
+        */
+        public static final int FloatingActionButton_fab_progress_indeterminate = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress_max}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress_max
+        */
+        public static final int FloatingActionButton_fab_progress_max = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_progress_showBackground}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_progress_showBackground
+        */
+        public static final int FloatingActionButton_fab_progress_showBackground = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_shadowColor}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_shadowColor
+        */
+        public static final int FloatingActionButton_fab_shadowColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_shadowRadius}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_shadowRadius
+        */
+        public static final int FloatingActionButton_fab_shadowRadius = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_shadowXOffset}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_shadowXOffset
+        */
+        public static final int FloatingActionButton_fab_shadowXOffset = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_shadowYOffset}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_shadowYOffset
+        */
+        public static final int FloatingActionButton_fab_shadowYOffset = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_showAnimation}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:fab_showAnimation
+        */
+        public static final int FloatingActionButton_fab_showAnimation = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_showShadow}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:fab_showShadow
+        */
+        public static final int FloatingActionButton_fab_showShadow = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#fab_size}
+          attribute's value can be found in the {@link #FloatingActionButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.GoodWeather:fab_size
+        */
+        public static final int FloatingActionButton_fab_size = 9;
+        /** Attributes that can be used with a FloatingActionMenu.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_animationDelayPerItem com.example.GoodWeather:menu_animationDelayPerItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_backgroundColor com.example.GoodWeather:menu_backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_buttonSpacing com.example.GoodWeather:menu_buttonSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_buttonToggleAnimation com.example.GoodWeather:menu_buttonToggleAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorNormal com.example.GoodWeather:menu_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorPressed com.example.GoodWeather:menu_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_colorRipple com.example.GoodWeather:menu_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_fab_size com.example.GoodWeather:menu_fab_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_icon com.example.GoodWeather:menu_icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorNormal com.example.GoodWeather:menu_labels_colorNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorPressed com.example.GoodWeather:menu_labels_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_colorRipple com.example.GoodWeather:menu_labels_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_cornerRadius com.example.GoodWeather:menu_labels_cornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_ellipsize com.example.GoodWeather:menu_labels_ellipsize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_hideAnimation com.example.GoodWeather:menu_labels_hideAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_margin com.example.GoodWeather:menu_labels_margin}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_maxLines com.example.GoodWeather:menu_labels_maxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_padding com.example.GoodWeather:menu_labels_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingBottom com.example.GoodWeather:menu_labels_paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingLeft com.example.GoodWeather:menu_labels_paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingRight com.example.GoodWeather:menu_labels_paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_paddingTop com.example.GoodWeather:menu_labels_paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_position com.example.GoodWeather:menu_labels_position}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showAnimation com.example.GoodWeather:menu_labels_showAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_showShadow com.example.GoodWeather:menu_labels_showShadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_singleLine com.example.GoodWeather:menu_labels_singleLine}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_style com.example.GoodWeather:menu_labels_style}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textColor com.example.GoodWeather:menu_labels_textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_labels_textSize com.example.GoodWeather:menu_labels_textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_openDirection com.example.GoodWeather:menu_openDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowColor com.example.GoodWeather:menu_shadowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowRadius com.example.GoodWeather:menu_shadowRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowXOffset com.example.GoodWeather:menu_shadowXOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_shadowYOffset com.example.GoodWeather:menu_shadowYOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionMenu_menu_showShadow com.example.GoodWeather:menu_showShadow}</code></td><td></td></tr>
+           </table>
+           @see #FloatingActionMenu_menu_animationDelayPerItem
+           @see #FloatingActionMenu_menu_backgroundColor
+           @see #FloatingActionMenu_menu_buttonSpacing
+           @see #FloatingActionMenu_menu_buttonToggleAnimation
+           @see #FloatingActionMenu_menu_colorNormal
+           @see #FloatingActionMenu_menu_colorPressed
+           @see #FloatingActionMenu_menu_colorRipple
+           @see #FloatingActionMenu_menu_fab_size
+           @see #FloatingActionMenu_menu_icon
+           @see #FloatingActionMenu_menu_labels_colorNormal
+           @see #FloatingActionMenu_menu_labels_colorPressed
+           @see #FloatingActionMenu_menu_labels_colorRipple
+           @see #FloatingActionMenu_menu_labels_cornerRadius
+           @see #FloatingActionMenu_menu_labels_ellipsize
+           @see #FloatingActionMenu_menu_labels_hideAnimation
+           @see #FloatingActionMenu_menu_labels_margin
+           @see #FloatingActionMenu_menu_labels_maxLines
+           @see #FloatingActionMenu_menu_labels_padding
+           @see #FloatingActionMenu_menu_labels_paddingBottom
+           @see #FloatingActionMenu_menu_labels_paddingLeft
+           @see #FloatingActionMenu_menu_labels_paddingRight
+           @see #FloatingActionMenu_menu_labels_paddingTop
+           @see #FloatingActionMenu_menu_labels_position
+           @see #FloatingActionMenu_menu_labels_showAnimation
+           @see #FloatingActionMenu_menu_labels_showShadow
+           @see #FloatingActionMenu_menu_labels_singleLine
+           @see #FloatingActionMenu_menu_labels_style
+           @see #FloatingActionMenu_menu_labels_textColor
+           @see #FloatingActionMenu_menu_labels_textSize
+           @see #FloatingActionMenu_menu_openDirection
+           @see #FloatingActionMenu_menu_shadowColor
+           @see #FloatingActionMenu_menu_shadowRadius
+           @see #FloatingActionMenu_menu_shadowXOffset
+           @see #FloatingActionMenu_menu_shadowYOffset
+           @see #FloatingActionMenu_menu_showShadow
+         */
+        public static final int[] FloatingActionMenu = {
+            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
+            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
+            0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
+            0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032,
+            0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036,
+            0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a,
+            0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042,
+            0x7f010043, 0x7f010044, 0x7f010045
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_animationDelayPerItem}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_animationDelayPerItem
+        */
+        public static final int FloatingActionMenu_menu_animationDelayPerItem = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_backgroundColor}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_backgroundColor
+        */
+        public static final int FloatingActionMenu_menu_backgroundColor = 34;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_buttonSpacing}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_buttonSpacing
+        */
+        public static final int FloatingActionMenu_menu_buttonSpacing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_buttonToggleAnimation}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:menu_buttonToggleAnimation
+        */
+        public static final int FloatingActionMenu_menu_buttonToggleAnimation = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_colorNormal}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_colorNormal
+        */
+        public static final int FloatingActionMenu_menu_colorNormal = 30;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_colorPressed}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_colorPressed
+        */
+        public static final int FloatingActionMenu_menu_colorPressed = 31;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_colorRipple}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_colorRipple
+        */
+        public static final int FloatingActionMenu_menu_colorRipple = 32;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_fab_size}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.GoodWeather:menu_fab_size
+        */
+        public static final int FloatingActionMenu_menu_fab_size = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_icon}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:menu_icon
+        */
+        public static final int FloatingActionMenu_menu_icon = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_colorNormal}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_colorNormal
+        */
+        public static final int FloatingActionMenu_menu_labels_colorNormal = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_colorPressed}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_colorPressed
+        */
+        public static final int FloatingActionMenu_menu_labels_colorPressed = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_colorRipple}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_colorRipple
+        */
+        public static final int FloatingActionMenu_menu_labels_colorRipple = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_cornerRadius}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_cornerRadius
+        */
+        public static final int FloatingActionMenu_menu_labels_cornerRadius = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_ellipsize}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>start</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>3</td><td></td></tr>
+<tr><td><code>marquee</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.example.GoodWeather:menu_labels_ellipsize
+        */
+        public static final int FloatingActionMenu_menu_labels_ellipsize = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_hideAnimation}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:menu_labels_hideAnimation
+        */
+        public static final int FloatingActionMenu_menu_labels_hideAnimation = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_margin}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_margin
+        */
+        public static final int FloatingActionMenu_menu_labels_margin = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_maxLines}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_maxLines
+        */
+        public static final int FloatingActionMenu_menu_labels_maxLines = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_padding}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_padding
+        */
+        public static final int FloatingActionMenu_menu_labels_padding = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_paddingBottom}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_paddingBottom
+        */
+        public static final int FloatingActionMenu_menu_labels_paddingBottom = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_paddingLeft}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_paddingLeft
+        */
+        public static final int FloatingActionMenu_menu_labels_paddingLeft = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_paddingRight}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_paddingRight
+        */
+        public static final int FloatingActionMenu_menu_labels_paddingRight = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_paddingTop}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_paddingTop
+        */
+        public static final int FloatingActionMenu_menu_labels_paddingTop = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_position}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.GoodWeather:menu_labels_position
+        */
+        public static final int FloatingActionMenu_menu_labels_position = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_showAnimation}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:menu_labels_showAnimation
+        */
+        public static final int FloatingActionMenu_menu_labels_showAnimation = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_showShadow}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_showShadow
+        */
+        public static final int FloatingActionMenu_menu_labels_showShadow = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_singleLine}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_singleLine
+        */
+        public static final int FloatingActionMenu_menu_labels_singleLine = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_style}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.GoodWeather:menu_labels_style
+        */
+        public static final int FloatingActionMenu_menu_labels_style = 25;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_textColor}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_textColor
+        */
+        public static final int FloatingActionMenu_menu_labels_textColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_labels_textSize}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_labels_textSize
+        */
+        public static final int FloatingActionMenu_menu_labels_textSize = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_openDirection}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>up</code></td><td>0</td><td></td></tr>
+<tr><td><code>down</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.GoodWeather:menu_openDirection
+        */
+        public static final int FloatingActionMenu_menu_openDirection = 33;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_shadowColor}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_shadowColor
+        */
+        public static final int FloatingActionMenu_menu_shadowColor = 26;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_shadowRadius}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_shadowRadius
+        */
+        public static final int FloatingActionMenu_menu_shadowRadius = 27;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_shadowXOffset}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_shadowXOffset
+        */
+        public static final int FloatingActionMenu_menu_shadowXOffset = 28;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_shadowYOffset}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_shadowYOffset
+        */
+        public static final int FloatingActionMenu_menu_shadowYOffset = 29;
+        /**
+          <p>This symbol is the offset where the {@link com.example.GoodWeather.R.attr#menu_showShadow}
+          attribute's value can be found in the {@link #FloatingActionMenu} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.GoodWeather:menu_showShadow
+        */
+        public static final int FloatingActionMenu_menu_showShadow = 0;
         /** Attributes that can be used with a HListView.
            <p>Includes the following attributes:</p>
            <table>
@@ -650,8 +2167,8 @@ containing a value of this type.
            @see #HListView_hlv_overScrollHeader
          */
         public static final int[] HListView = {
-            0x010100b2, 0x01010129, 0x7f01000f, 0x7f010010,
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014
+            0x010100b2, 0x01010129, 0x7f010046, 0x7f010047,
+            0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#divider}

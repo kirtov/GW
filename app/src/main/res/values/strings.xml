@@ -16,4 +16,153 @@
     <string name="yes">Да</string>
     <string name="nope">Нет</string>
     <string name="refresh">Обновить</string>
+    <string-array name="enConditions">
+        <item>clear sky</item>
+        <item>few clouds</item>
+        <item>scattered clouds</item>
+        <item>broken clouds</item>
+        <item>shower rain</item>
+        <item>rain</item>
+        <item>thunderstorm</item>
+        <item>snow</item>
+        <item>mist</item>
+        <item>thunderstorm with light rain</item>
+        <item>thunderstorm with rain</item>
+        <item>thunderstorm with heavy rain</item>
+        <item>light thunderstorm</item>
+        <item>heavy thunderstorm</item>
+        <item>ragged thunderstorm</item>
+        <item>thunderstorm with light drizzle</item>
+        <item>thunderstorm with drizzle</item>
+        <item>thunderstorm with heavy drizzle</item>
+        <item>light intensity drizzle</item>
+        <item>drizzle</item>
+        <item>heavy intensity drizzle</item>
+        <item>light intensity drizzle rain</item>
+        <item>drizzle rain</item>
+        <item>heavy intensity drizzle rain</item>
+        <item>shower rain and drizzle</item>
+        <item>heavy shower rain and drizzle</item>
+        <item>shower drizzle</item>
+        <item>light rain</item>
+        <item>moderate rain</item>
+        <item>heavy intensity rain</item>
+        <item>very heavy rain</item>
+        <item>extreme rain</item>
+        <item>freezing rain</item>
+        <item>light intensity shower rain</item>
+        <item>heavy intensity shower rain</item>
+        <item>ragged shower rain</item>
+        <item>light snow</item>
+        <item>heavy snow</item>
+        <item>sleet</item>
+        <item>shower sleet</item>
+        <item>light rain and snow</item>
+        <item>rain and snow</item>
+        <item>light shower snow</item>
+        <item>shower snow</item>
+        <item>heavy shower snow</item>
+        <item>smoke</item>
+        <item>haze</item>
+        <item>sand, dust whirls</item>
+        <item>fog</item>
+        <item>sand</item>
+        <item>dust</item>
+        <item>volcanic ash</item>
+        <item>squalls</item>
+        <item>tornado</item>
+        <item>overcast clouds</item>
+        <item>tropical storm</item>
+        <item>hurricane</item>
+        <item>cold</item>
+        <item>hot</item>
+        <item>windy</item>
+        <item>hail</item>
+        <item>calm</item>
+        <item>light breeze</item>
+        <item>gentle breeze</item>
+        <item>moderate breeze</item>
+        <item>fresh breeze</item>
+        <item>strong breeze</item>
+        <item>high wind, near gale</item>
+        <item>gale</item>
+        <item>severe gale</item>
+        <item>storm</item>
+        <item>violent storm</item>
+    </string-array>
+
+    <string-array name="ruConditions">
+        <item>Ясно</item>
+        <item>Малооблачно</item>
+        <item>Рассеянные облака</item>
+        <item>Прослеживаются облака</item>
+        <item>Ливень</item>
+        <item>Дождь</item>
+        <item>Гроза</item>
+        <item>Снег</item>
+        <item>Туман</item>
+        <item>Гроза с дождиком</item>
+        <item>Гроза с дождем</item>
+        <item>Гроза с дождем</item>
+        <item>Легкая гроза</item>
+        <item>Сильная гроза</item>
+        <item>Прослеживается гроза</item>
+        <item>Легкая морось</item>
+        <item>Морось</item>
+        <item>Сильная морось</item>
+        <item>Легкий дождь</item>
+        <item>Моросящий дождь</item>
+        <item>Сильный дождь</item>
+        <item>Легкий дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Ливень</item>
+        <item>Сильный ливень</item>
+        <item>Моросящий дождь</item>
+        <item>Легкий дождь</item>
+        <item>Умеренный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Легкий дождик</item>
+        <item>Сильный дождь</item>
+        <item>Ливень</item>
+        <item>Легкий снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Легкий снегопад</item>
+        <item>Снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>Туман</item>
+        <item>Мгла</item>
+        <item>Пыльно</item>
+        <item>Туман</item>
+        <item>Пыльно</item>
+        <item>Пыльно</item>
+        <item>Вулканический пепел</item>
+        <item>Шквалы ветра</item>
+        <item>Торнадо</item>
+        <item>Пасмурно и облачно</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>Холод</item>
+        <item>Пекло</item>
+        <item>Ветрено</item>
+        <item>Град</item>
+        <item>Спокойно</item>
+        <item>Легкий бриз</item>
+        <item>Нежный бриз</item>
+        <item>Умеренный бриз</item>
+        <item>Свежий бриз</item>
+        <item>Сильный бриз</item>
+        <item>Сильный ветер</item>
+        <item>Буря</item>
+        <item>Буря</item>
+        <item>Шторм</item>
+        <item>Сильный шторм</item>
+    </string-array>
 </resources>

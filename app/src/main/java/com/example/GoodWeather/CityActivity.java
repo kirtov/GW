@@ -3,44 +3,46 @@ package com.example.GoodWeather;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.*;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
-import org.json.JSONObject;
-import org.json.JSONTokener;
 
-import javax.net.ssl.HttpsURLConnection;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URL;
+import com.github.clans.fab.FloatingActionButton;
+
 import java.util.concurrent.ExecutionException;
 
 public class CityActivity extends Activity {
-    private final String EN = "en", RU = "ru";
+    private final String EN = "en";
 
     String ruWord;
     DBAdapter db;
     ListView listView;
     TextView text;
     String[] cities;
+    FloatingActionButton fab;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.city);
         listView = (ListView) findViewById(R.id.listView);
+        fab = (FloatingActionButton) findViewById(R.id.add_city_fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                programAddCity();
+            }
+        });
         db = new DBAdapter(this);
         text = (TextView) findViewById(R.id.textView);
-        getActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.status));
+        getActionBar().setBackgroundDrawable(getResources().getDrawable(R.color.sbis_blue_dark));
+        getActionBar().setTitle("Выберите город");
         makeList();
     }
 
-
     private void makeList() {
         cities = db.getAllCities();
-        if (cities == null)  {
+        if (cities == null) {
             cities = new String[0];
         }
         for (int i = 0; i < cities.length; i++) {
@@ -55,9 +57,9 @@ public class CityActivity extends Activity {
                 Intent intent = new Intent(CityActivity.this, WeatherActivity.class);
                 intent.putExtra(DBAdapter.RUCITYNAME, cities[position]);
                 startActivity(intent);
-//                CityActivity.this.finish();
             }
         });
+        listView.setDividerHeight(0);
 
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -83,17 +85,6 @@ public class CityActivity extends Activity {
         });
         listView.setAdapter(adapter);
     }
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.city_menu, menu);
-        return true;
-    }
-
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.add) {
-            programAddCity();
-        }
-        return true;
-    }
 
     public void programAddCity() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -105,7 +96,6 @@ public class CityActivity extends Activity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 ruWord = edit.getText().toString();
-                int i = ruWord.length() - 1;
                 ruWord = ruWord.replace(" ", "");
                 String enWord = "";
                 if (!ruWord.equals("")) {

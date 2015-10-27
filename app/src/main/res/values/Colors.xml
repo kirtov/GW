@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="sbis_orange">#ff7033</color>
+    <color name="sbis_orange_dark">#ff5810</color>
+    <color name="sbis_blue">#2d5d9a</color>
+    <color name="sbis_blue_dark">#1f5292</color>
+    <color name="sbis_black">#303030</color>
+    <color name="sbis_gray">#c8c8c8</color>
+
+    <color name="input_field_text_color">#ffffff</color>
+    <color name="input_field_hint_color">#43ffffff</color>
+    <color name="input_field_cursor_color">#ffffff</color>
+    <color name="input_field_line_default_color">#43ffffff</color>
+    <color name="input_field_line_focused_color">@android:color/holo_blue_dark</color>
+
+    <color name="list_selection_gray">#f3f3f3</color>
+    <color name="list_separator">#c8c7cc</color>
+    <color name="list_separator_profile_view">#eeeeee</color>
+    <color name="list_separator_another_profile_view">#2d5d9a</color>
+
+    <color name="scrollbar_color">#999999</color>
+
+    <color name="navigation_primary_color">#ffffff</color>
+    <color name="navigation_drawer_bg_color">#ffffff</color>
+    <color name="navigation_drawer_menu_selected_color">#ebf3f8</color>
+    <color name="navigation_drawer_menu_selection_color">#f5f5f7</color>
+
+    <color name="checkin_todays_section_bg_color">#66000000</color>
+
+    <color name="visit_log_list_section_bg_color">#efeff4</color>
+    <color name="visit_log_list_section_text_color">#999999</color>
+    <color name="visit_log_list_selected_item_bg_color">#d9d9d9</color>
+
+    <color name="person_image_border_color">#ebebeb</color>
+
+    <color name="person_active_view_color">#ff7033</color>
+    <color name="person_inactive_view_color">#c1c1c1</color>
+
+    <color name="spinner_with_header_text_color">#64ffffff</color>
+    <color name="spinner_with_header_pressed_text_color">#64ff7033</color>
+
+    <color name="dialog_message_color">#999999</color>
+    <color name="dialog_time_color">#64303030</color>
+    <color name="dialog_default_name_color">@color/text_default_color</color>
+    <color name="dialog_unread_name_color">@color/sbis_orange</color>
+    <color name="dialog_company_color">#64303030</color>
+    <color name="dialog_company_bg">#cfdbe4</color>
+    <color name="dialog_unread_bg_color">#eff3f6</color>
+    <color name="dialog_separator_color">#ebebeb</color>
+    <color name="dialog_date_header_text_color">#aaaaaa</color>
+
+    <color name="message_text_color">#535353</color>
+    <color name="message_from_user_bg_color">#1f000000</color>
+    <color name="message_from_cur_user_bg_color">#eff3f6</color>
+    <color name="message_not_delivered">#ff4a4a</color>
+    <color name="message_person_name">#1f5292</color>
+    <color name="message_text">@color/sbis_black</color>
+    <color name="message_text_alpha">#64303030</color>
+    <color name="message_input_hint">#c8c8c8</color>
+    <color name="message_input_stroke">#ebebeb</color>
+
+    <color name="button_orange_default_bg_color">@color/sbis_orange</color>
+    <color name="button_orange_disable_bg_color">#dddddd</color>
+    <color name="button_orange_pressed_bg_color">@color/sbis_orange_dark</color>
+
+    <color name="text_default_color">@color/sbis_black</color>
+    <color name="text_orange_color">@color/sbis_orange</color>
+
+    <color name="item_shadow_color">#11000000</color>
+
+    <color name="registration_hint_color">#E8F0F7</color>
+
+    <color name="profile_background">#f3f3f3</color>
+
+    <color name="edit_text_color_hint">#c8c8c8</color>
+    <color name="edit_text_color_link">#1f5292</color>
+
+</resources>

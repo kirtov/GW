@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:background="@drawable/back"
-        >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/message_text">
     <ListView
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/listView" android:layout_gravity="center_horizontal" android:layout_weight="5"/>
-</LinearLayout>
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" android:layout_gravity="center_horizontal" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/add_city_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="@color/sbis_blue"
+        app:fab_colorPressed="@color/sbis_blue_dark"
+        app:fab_colorRipple="@color/sbis_blue_dark"
+        android:src="@drawable/fadd"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
 

@@ -50,7 +50,8 @@
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp" android:layout_weight="4" android:orientation="vertical"
-        android:id="@+id/lin23">
+        android:id="@+id/lin23"
+        android:layout_marginBottom="10dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,17 +84,20 @@
                     android:background="@drawable/day"
                     android:layout_height="120dp" android:layout_weight="1"
                 android:onClick="on1Click">
+
                 <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                     android:id="@+id/l1_t1" android:gravity="center_vertical|center_horizontal"
                         android:layout_weight="1"
                     android:textSize="20sp" />
+
                 <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="@dimen/weather_image_width"
+                        android:layout_height="@dimen/weather_image_height"
                         android:id="@+id/l1_i1" android:layout_weight="6"
                     android:layout_centerInParent="true" />
+
                 <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -116,8 +120,8 @@
                         android:layout_weight="1"
                     android:textSize="20sp" />
                 <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
+                    android:layout_width="@dimen/weather_image_width"
+                    android:layout_height="@dimen/weather_image_height"
                         android:id="@+id/l2_i1" android:layout_weight="6"
                     android:layout_centerInParent="true" />
                 <TextView
@@ -142,8 +146,8 @@
                         android:layout_weight="1"
                     android:textSize="20sp" />
                 <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
+                    android:layout_width="@dimen/weather_image_width"
+                    android:layout_height="@dimen/weather_image_height"
                         android:id="@+id/l3_i1" android:layout_weight="6" android:layout_alignParentEnd="false"
                     android:layout_centerInParent="true" />
                 <TextView
@@ -168,8 +172,8 @@
                         android:layout_weight="1"
                     android:textSize="20sp" />
                 <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
+                    android:layout_width="@dimen/weather_image_width"
+                    android:layout_height="@dimen/weather_image_height"
                         android:id="@+id/l4_i1" android:layout_weight="6"
                     android:layout_centerInParent="true" />
                 <TextView
@@ -183,4 +187,4 @@
 
         </LinearLayout>
     </HorizontalScrollView>
-</LinearLayout><!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/src/main/res/layout/weather.xml -->
+</LinearLayout><!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/src/main/res/layout/weather.xml -->

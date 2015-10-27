@@ -2,18 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\kk1\Desktop\lesson10\app\build\intermediates\exploded-aar\it.sephiroth.android.library.horizontallistview\hlistview\1.2.2\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
-        <dex dex="C:\Users\kk1\Desktop\lesson10\app\build\intermediates\pre-dexed\release\classes-85ac1d7aaa069b74f73f209fe1e67aa10ae9020b.jar" />
-    </item>
-    <item
-        jar="C:\Users\kk1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\ks.kochetov\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\kk1\Desktop\lesson10\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-cff508de74a4187accd11143eb5105d461b2ee9a.jar" />
+        <dex dex="C:\Users\ks.kochetov\MyProjects\GW\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-902175fcb59e160aaa02523f1d521acbf309d960.jar" />
+    </item>
+    <item
+        jar="C:\Users\ks.kochetov\MyProjects\GW\app\build\intermediates\exploded-aar\com.github.clans\fab\1.5.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2442ffbd2ff712ca970b0084f1fb2ed61965b94f">
+        <dex dex="C:\Users\ks.kochetov\MyProjects\GW\app\build\intermediates\pre-dexed\debug\classes-70a3d72291ea971301ca3336e1d48dce1b883e21.jar" />
+    </item>
+    <item
+        jar="C:\Users\ks.kochetov\MyProjects\GW\app\build\intermediates\exploded-aar\it.sephiroth.android.library.horizontallistview\hlistview\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
+        <dex dex="C:\Users\ks.kochetov\MyProjects\GW\app\build\intermediates\pre-dexed\debug\classes-4457ddeeebcc692bd7c479aee4621bfc43569dc8.jar" />
     </item>
 
 </items>

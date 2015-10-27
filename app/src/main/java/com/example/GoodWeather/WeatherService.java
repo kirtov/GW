@@ -1,9 +1,6 @@
 package com.example.GoodWeather;
-import android.app.AlarmManager;
 import android.app.IntentService;
-import android.app.PendingIntent;
 import android.content.Intent;
-import android.os.SystemClock;
 
 import com.example.GoodWeather.Forecast.DayForecast;
 
@@ -49,9 +46,6 @@ public class WeatherService extends IntentService {
         response.addCategory(Intent.CATEGORY_DEFAULT);
         response.putExtra(WEATHER, dfs);
         sendBroadcast(response);
-//        AlarmManager manager = (AlarmManager) getSystemService(ALARM_SERVICE);
-//        PendingIntent pi = PendingIntent.getService(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-//        manager.setRepeating(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime() + 200000, 200000, pi);
     }
 }
 

@@ -34,7 +34,7 @@ public class WeatherHandler extends DefaultHandler {
         sb = new StringBuilder();
     }
 
-    String tempr, cond, imgCode, mps, hum, pres, clouds, cloudsVal, tm, superTm;
+    String tempr, cond, imgCode, mps, hum, pres, clouds, cloudsVal, tm;
     Calendar curcal;
     Date curDay = null, time2;
 

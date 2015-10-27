@@ -1,15 +1,238 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="enConditions">
+        <item>clear sky</item>
+        <item>few clouds</item>
+        <item>scattered clouds</item>
+        <item>broken clouds</item>
+        <item>shower rain</item>
+        <item>rain</item>
+        <item>thunderstorm</item>
+        <item>snow</item>
+        <item>mist</item>
+        <item>thunderstorm with light rain</item>
+        <item>thunderstorm with rain</item>
+        <item>thunderstorm with heavy rain</item>
+        <item>light thunderstorm</item>
+        <item>heavy thunderstorm</item>
+        <item>ragged thunderstorm</item>
+        <item>thunderstorm with light drizzle</item>
+        <item>thunderstorm with drizzle</item>
+        <item>thunderstorm with heavy drizzle</item>
+        <item>light intensity drizzle</item>
+        <item>drizzle</item>
+        <item>heavy intensity drizzle</item>
+        <item>light intensity drizzle rain</item>
+        <item>drizzle rain</item>
+        <item>heavy intensity drizzle rain</item>
+        <item>shower rain and drizzle</item>
+        <item>heavy shower rain and drizzle</item>
+        <item>shower drizzle</item>
+        <item>light rain</item>
+        <item>moderate rain</item>
+        <item>heavy intensity rain</item>
+        <item>very heavy rain</item>
+        <item>extreme rain</item>
+        <item>freezing rain</item>
+        <item>light intensity shower rain</item>
+        <item>heavy intensity shower rain</item>
+        <item>ragged shower rain</item>
+        <item>light snow</item>
+        <item>heavy snow</item>
+        <item>sleet</item>
+        <item>shower sleet</item>
+        <item>light rain and snow</item>
+        <item>rain and snow</item>
+        <item>light shower snow</item>
+        <item>shower snow</item>
+        <item>heavy shower snow</item>
+        <item>smoke</item>
+        <item>haze</item>
+        <item>sand, dust whirls</item>
+        <item>fog</item>
+        <item>sand</item>
+        <item>dust</item>
+        <item>volcanic ash</item>
+        <item>squalls</item>
+        <item>tornado</item>
+        <item>overcast clouds</item>
+        <item>tropical storm</item>
+        <item>hurricane</item>
+        <item>cold</item>
+        <item>hot</item>
+        <item>windy</item>
+        <item>hail</item>
+        <item>calm</item>
+        <item>light breeze</item>
+        <item>gentle breeze</item>
+        <item>moderate breeze</item>
+        <item>fresh breeze</item>
+        <item>strong breeze</item>
+        <item>high wind, near gale</item>
+        <item>gale</item>
+        <item>severe gale</item>
+        <item>storm</item>
+        <item>violent storm</item>
+    </string-array>
+    <string-array name="ruConditions">
+        <item>Ясно</item>
+        <item>Малооблачно</item>
+        <item>Рассеянные облака</item>
+        <item>Прослеживаются облака</item>
+        <item>Ливень</item>
+        <item>Дождь</item>
+        <item>Гроза</item>
+        <item>Снег</item>
+        <item>Туман</item>
+        <item>Гроза с дождиком</item>
+        <item>Гроза с дождем</item>
+        <item>Гроза с дождем</item>
+        <item>Легкая гроза</item>
+        <item>Сильная гроза</item>
+        <item>Прослеживается гроза</item>
+        <item>Легкая морось</item>
+        <item>Морось</item>
+        <item>Сильная морось</item>
+        <item>Легкий дождь</item>
+        <item>Моросящий дождь</item>
+        <item>Сильный дождь</item>
+        <item>Легкий дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Ливень</item>
+        <item>Сильный ливень</item>
+        <item>Моросящий дождь</item>
+        <item>Легкий дождь</item>
+        <item>Умеренный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Сильный дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Легкий дождик</item>
+        <item>Сильный дождь</item>
+        <item>Ливень</item>
+        <item>Легкий снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Дождь со снегом</item>
+        <item>Легкий снегопад</item>
+        <item>Снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>Туман</item>
+        <item>Мгла</item>
+        <item>Пыльно</item>
+        <item>Туман</item>
+        <item>Пыльно</item>
+        <item>Пыльно</item>
+        <item>Вулканический пепел</item>
+        <item>Шквалы ветра</item>
+        <item>Торнадо</item>
+        <item>Пасмурно и облачно</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>Холод</item>
+        <item>Пекло</item>
+        <item>Ветрено</item>
+        <item>Град</item>
+        <item>Спокойно</item>
+        <item>Легкий бриз</item>
+        <item>Нежный бриз</item>
+        <item>Умеренный бриз</item>
+        <item>Свежий бриз</item>
+        <item>Сильный бриз</item>
+        <item>Сильный ветер</item>
+        <item>Буря</item>
+        <item>Буря</item>
+        <item>Шторм</item>
+        <item>Сильный шторм</item>
+    </string-array>
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="hlv_absHListViewStyle"/>
     <attr format="reference" name="hlv_expandableListViewStyle"/>
     <attr format="dimension" name="hlv_listPreferredItemWidth"/>
     <attr format="reference" name="hlv_listViewStyle"/>
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/src/main/res/values/Colors.xml -->
+    <eat-comment/>
+    <color name="button_orange_default_bg_color">@color/sbis_orange</color>
+    <color name="button_orange_disable_bg_color">#dddddd</color>
+    <color name="button_orange_pressed_bg_color">@color/sbis_orange_dark</color>
+    <color name="checkin_todays_section_bg_color">#66000000</color>
+    <color name="dialog_company_bg">#cfdbe4</color>
+    <color name="dialog_company_color">#64303030</color>
+    <color name="dialog_date_header_text_color">#aaaaaa</color>
+    <color name="dialog_default_name_color">@color/text_default_color</color>
+    <color name="dialog_message_color">#999999</color>
+    <color name="dialog_separator_color">#ebebeb</color>
+    <color name="dialog_time_color">#64303030</color>
+    <color name="dialog_unread_bg_color">#eff3f6</color>
+    <color name="dialog_unread_name_color">@color/sbis_orange</color>
+    <color name="edit_text_color_hint">#c8c8c8</color>
+    <color name="edit_text_color_link">#1f5292</color>
+    <color name="input_field_cursor_color">#ffffff</color>
+    <color name="input_field_hint_color">#43ffffff</color>
+    <color name="input_field_line_default_color">#43ffffff</color>
+    <color name="input_field_line_focused_color">@android:color/holo_blue_dark</color>
+    <color name="input_field_text_color">#ffffff</color>
+    <color name="item_shadow_color">#11000000</color>
+    <color name="list_selection_gray">#f3f3f3</color>
+    <color name="list_separator">#c8c7cc</color>
+    <color name="list_separator_another_profile_view">#2d5d9a</color>
+    <color name="list_separator_profile_view">#eeeeee</color>
+    <color name="message_from_cur_user_bg_color">#eff3f6</color>
+    <color name="message_from_user_bg_color">#1f000000</color>
+    <color name="message_input_hint">#c8c8c8</color>
+    <color name="message_input_stroke">#ebebeb</color>
+    <color name="message_not_delivered">#ff4a4a</color>
+    <color name="message_person_name">#1f5292</color>
+    <color name="message_text">@color/sbis_black</color>
+    <color name="message_text_alpha">#64303030</color>
+    <color name="message_text_color">#535353</color>
+    <color name="navigation_drawer_bg_color">#ffffff</color>
+    <color name="navigation_drawer_menu_selected_color">#ebf3f8</color>
+    <color name="navigation_drawer_menu_selection_color">#f5f5f7</color>
+    <color name="navigation_primary_color">#ffffff</color>
+    <color name="person_active_view_color">#ff7033</color>
+    <color name="person_image_border_color">#ebebeb</color>
+    <color name="person_inactive_view_color">#c1c1c1</color>
+    <color name="profile_background">#f3f3f3</color>
+    <color name="registration_hint_color">#E8F0F7</color>
+    <color name="sbis_black">#303030</color>
+    <color name="sbis_blue">#2d5d9a</color>
+    <color name="sbis_blue_dark">#1f5292</color>
+    <color name="sbis_gray">#c8c8c8</color>
+    <color name="sbis_orange">#ff7033</color>
+    <color name="sbis_orange_dark">#ff5810</color>
+    <color name="scrollbar_color">#999999</color>
+    <color name="spinner_with_header_pressed_text_color">#64ff7033</color>
+    <color name="spinner_with_header_text_color">#64ffffff</color>
+    <color name="text_default_color">@color/sbis_black</color>
+    <color name="text_orange_color">@color/sbis_orange</color>
+    <color name="visit_log_list_section_bg_color">#efeff4</color>
+    <color name="visit_log_list_section_text_color">#999999</color>
+    <color name="visit_log_list_selected_item_bg_color">#d9d9d9</color>
     <declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:smoothScrollbar"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:scrollingCache"/><attr name="android:choiceMode"/><attr format="boolean" name="hlv_stackFromRight"/><attr name="hlv_transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr></declare-styleable>
     <declare-styleable name="ExpandableHListView"><attr name="hlv_indicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr name="hlv_childIndicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="reference|color" name="hlv_childDivider"/><attr format="reference" name="hlv_groupIndicator"/><attr format="reference" name="hlv_childIndicator"/><attr format="dimension" name="hlv_indicatorPaddingLeft"/><attr format="dimension" name="hlv_indicatorPaddingTop"/><attr format="dimension" name="hlv_childIndicatorPaddingLeft"/><attr format="dimension" name="hlv_childIndicatorPaddingTop"/></declare-styleable>
+    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorNormal"/><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorRipple"/><attr format="boolean" name="fab_showShadow"/><attr format="color" name="fab_shadowColor"/><attr format="dimension" name="fab_shadowRadius"/><attr format="dimension" name="fab_shadowXOffset"/><attr format="dimension" name="fab_shadowYOffset"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="reference" name="fab_showAnimation"/><attr format="reference" name="fab_hideAnimation"/><attr format="string" name="fab_label"/><attr format="dimension" name="fab_elevationCompat"/><attr format="color" name="fab_progress_color"/><attr format="color" name="fab_progress_backgroundColor"/><attr format="boolean" name="fab_progress_indeterminate"/><attr format="integer" name="fab_progress_max"/><attr format="integer" name="fab_progress"/><attr format="boolean" name="fab_progress_showBackground"/></declare-styleable>
+    <declare-styleable name="FloatingActionMenu"><attr format="boolean" name="menu_showShadow"/><attr format="dimension" name="menu_buttonSpacing"/><attr format="dimension" name="menu_labels_margin"/><attr format="reference" name="menu_labels_showAnimation"/><attr format="reference" name="menu_labels_hideAnimation"/><attr format="dimension" name="menu_labels_paddingTop"/><attr format="dimension" name="menu_labels_paddingLeft"/><attr format="dimension" name="menu_labels_paddingRight"/><attr format="dimension" name="menu_labels_paddingBottom"/><attr format="dimension" name="menu_labels_padding"/><attr format="color" name="menu_labels_textColor"/><attr format="dimension" name="menu_labels_textSize"/><attr format="dimension" name="menu_labels_cornerRadius"/><attr format="boolean" name="menu_labels_showShadow"/><attr format="color" name="menu_labels_colorNormal"/><attr format="color" name="menu_labels_colorPressed"/><attr format="color" name="menu_labels_colorRipple"/><attr format="enum" name="menu_labels_position"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="menu_icon"/><attr format="integer" name="menu_animationDelayPerItem"/><attr format="reference" name="menu_buttonToggleAnimation"/><attr format="boolean" name="menu_labels_singleLine"/><attr format="enum" name="menu_labels_ellipsize"><enum name="none" value="0"/><enum name="start" value="1"/><enum name="middle" value="2"/><enum name="end" value="3"/><enum name="marquee" value="4"/></attr><attr format="integer" name="menu_labels_maxLines"/><attr format="enum" name="menu_fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="reference" name="menu_labels_style"/><attr format="color" name="menu_shadowColor"/><attr format="dimension" name="menu_shadowRadius"/><attr format="dimension" name="menu_shadowXOffset"/><attr format="dimension" name="menu_shadowYOffset"/><attr format="color" name="menu_colorNormal"/><attr format="color" name="menu_colorPressed"/><attr format="color" name="menu_colorRipple"/><attr format="enum" name="menu_openDirection"><enum name="up" value="0"/><enum name="down" value="1"/></attr><attr format="color" name="menu_backgroundColor"/></declare-styleable>
     <declare-styleable name="HListView"><attr name="android:entries"/><attr name="android:divider"/><attr format="dimension" name="hlv_dividerWidth"/><attr format="boolean" name="hlv_headerDividersEnabled"/><attr format="boolean" name="hlv_footerDividersEnabled"/><attr format="reference|color" name="hlv_overScrollHeader"/><attr format="reference|color" name="hlv_overScrollFooter"/><attr format="integer" name="hlv_measureWithChild"/></declare-styleable>
-    <!-- From: file:/C:/Users/kk1/Desktop/lesson10/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/build/intermediates/exploded-aar/com.github.clans/fab/1.5.3/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="weather_image_height">50dp</dimen>
+    <dimen name="weather_image_width">50dp</dimen>
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/build/intermediates/exploded-aar/com.github.clans/fab/1.5.3/res/values/values.xml -->
+    <eat-comment/>
+    <item name="fab_label" type="id"/>
+    <!-- From: file:/C:/Users/ks.kochetov/MyProjects/GW/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="addcity">Добавить город</string>
     <string name="app_name">GoodWeather</string>
